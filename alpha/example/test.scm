@@ -1,0 +1,155 @@
+(html
+  (head
+    "<link href='test.css' rel='stylesheet'>")
+  (body  
+    (h1 "Aristotle's" (i "Posterior Analytics"))
+    (h2 "Book I")
+
+    (h3 "Section 1")
+
+    (p  "All instruction given or received by way of argument proceeds from
+        pre-existent knowledge. This becomes evident upon a survey of all the
+        species of such instruction. The mathematical sciences and all other
+        speculative disciplines are acquired in this way, and so are the two
+        forms of dialectical reasoning, syllogistic and inductive. for each of
+        these latter make use of old knowledge to impart new, the syllogism
+        assuming an audience that accepts its premisses, induction exhibiting
+        the universal as implicit in the clearly known particular. Again, the
+        persuasion exerted by rhetorical arguments is in principle the same,
+        since they use either example, a kind of 
+        <a href='https://www.wikipedia.org'>induction</a>, or enthymeme, a
+        form of syllogism.")
+    (table (% (generate-table '("these" "are" "just" "some" "random" "words")
+                             '("words" "random" "some" "just" "are" "these")))
+          (caption "Table 1. A table generated using scheme."))
+
+    (p "The pre-existent knowledge required is of two kinds. In some cases
+       admission of the fact must be assumed, in others comprehension of the
+       meaning of the term used, and sometimes both assumptions are essential.
+       Thus, we assume that every predicate can be either truly affirmed or
+       truly denied of any subject, and that 'triangle' means so and so as
+       regards 'unit' we have to make the double assumption of the meaning of
+       the word and the existence of the thing. The reason is that these 
+       several objects are not equally obvious to us. Recognition of a truth 
+       may in some cases contain as factors both previous knowledge and also 
+       knowledge acquired simultaneously with that recognition-knowledge, this 
+       latter, of the particulars actually falling under the universal and 
+       therein already virtually known. For example, the student knew 
+       beforehand that the angles of every triangle are equal to two right 
+       angles but it was only at the actual moment at which he was being led on
+       to recognize this as true in the instance before him that he came to 
+       know
+       'this figure inscribed in the semicircle' to be a triangle. For some
+       things \"(viz. the singulars finally reached which are not predicable of 
+       anything else as subject)\" are only learnt in this way, i.e. there is
+       here no recognition through a middle of a minor term as subject to a
+       major. Before he was led on to recognition or before he actually drew a
+       conclusion, we should perhaps say that in a manner he knew, in a manner
+       not.")
+    (blockquote (i "And men go about to wonder at the heights of mountains,
+                   the mighty waves of the sea, 
+                   the wide sweep of rivers,
+                   the circuit of the ocean,
+                   and the revolutions of the stars.
+                   But themselves they consider not."))
+
+    (p "If he did not in an unqualified sense of the term know the existence 
+of this triangle, how could he know without qualification that its angles were 
+equal to two right angles? No: clearly he knows not without qualification but 
+only in the sense that he knows universally. If this distinction is not drawn, 
+we are faced with the dilemma in the Meno: either a man will learn nothing or 
+what he already knows; for we cannot accept the solution which some people 
+offer. A man is asked, 'Do you, or do you not, know that every pair is even?' 
+He says he does know it. The questioner then produces a particular pair, of 
+the existence, and so a fortiori of the evenness, of which he was unaware. The 
+solution which some people offer is to assert that they do not know that every 
+pair is even, but only that everything which they know to be a pair is even: 
+yet what they know to be even is that of which they have demonstrated evenness
+, i.e. what they made the subject of their premiss, viz. not merely every 
+triangle or number which they know to be such, but any and every number or 
+triangle without reservation. For no premiss is ever couched in the form '
+every number which you know to be such', or 'every rectilinear figure which 
+you know to be such': the predicate is always construed as applicable to any 
+and every instance of the thing. On the other hand, I imagine there is nothing 
+to prevent a man in one sense knowing what he is learning, in another not 
+knowing it. The strange thing would be, not if in some sense he knew what he 
+was learning, but if he were to know it in that precise sense and manner in 
+which he was learning it.")
+
+    (h3 "Section 2")
+
+    (p "We suppose ourselves to possess unqualified scientific knowledge of a 
+thing, as opposed to knowing it in the accidental way in which the sophist knows
+, when we think that we know the cause on which the fact depends, as the cause 
+of that fact and of no other, and, further, that the fact could not be other 
+than it is. Now that scientific knowing is something of this sort is evident-
+witness both those who falsely claim it and those who actually possess it, 
+since the former merely imagine themselves to be, while the latter are also 
+actually, in the condition described. Consequently the proper object of 
+unqualified scientific knowledge is something which cannot be other than it is.")
+    (p "There may be another manner of knowing as well-that will be discussed 
+later. What I now assert is that at all events we do know by demonstration. By 
+demonstration I mean a syllogism productive of scientific knowledge, a syllogism
+, that is, the grasp of which is eo ipso such knowledge. Assuming then that my 
+thesis as to the nature of scientific knowing is correct, the premisses of 
+demonstrated knowledge must be true, primary, immediate, better known than and 
+prior to the conclusion, which is further related to them as effect to cause. 
+Unless these conditions are satisfied, the basic truths will not be 'appropriate
+' to the conclusion. Syllogism there may indeed be without these conditions, 
+but such syllogism, not being productive of scientific knowledge, will not be 
+demonstration. The premisses must be true: for that which is non-existent 
+cannot be known-we cannot know, e.g. that the diagonal of a square is 
+commensurate with its side. The premisses must be primary and indemonstrable; 
+otherwise they will require demonstration in order to be known, since to have 
+knowledge, if it be not accidental knowledge, of things which are demonstrable, 
+means precisely to have a demonstration of them. The premisses must be the 
+causes of the conclusion, better known than it, and prior to it; its causes, 
+since we possess scientific knowledge of a thing only when we know its cause; 
+prior, in order to be causes; antecedently known, this antecedent knowledge 
+being not our mere understanding of the meaning, but knowledge of the fact as 
+well. Now 'prior' and 'better known' are ambiguous terms, for there is a 
+difference between what is prior and better known in the order of being and 
+what is prior and better known to man. I mean that objects nearer to sense are 
+prior and better known to man; objects without qualification prior and better 
+known are those further from sense. Now the most universal causes are furthest 
+from sense and particular causes are nearest to sense, and they are thus 
+exactly opposed to one another. In saying that the premisses of demonstrated 
+knowledge must be primary, I mean that they must be the 'appropriate' basic 
+truths, for I identify primary premiss and basic truth. A 'basic truth' in a 
+demonstration is an immediate proposition. An immediate proposition is one 
+which has no other proposition prior to it. A proposition is either part of an 
+enunciation, i.e. it predicates a single attribute of a single subject. If a 
+proposition is dialectical, it assumes either part indifferently; if it is 
+demonstrative, it lays down one part to the definite exclusion of the other 
+because that part is true. The term 'enunciation' denotes either part of a 
+contradiction indifferently. A contradiction is an opposition which of its own 
+nature excludes a middle. The part of a contradiction which conjoins a 
+predicate with a subject is an affirmation; the part disjoining them is a 
+negation. I call an immediate basic truth of syllogism a 'thesis' when, though 
+it is not susceptible of proof by the teacher, yet ignorance of it does not 
+constitute a total bar to progress on the part of the pupil: one which the 
+pupil must know if he is to learn anything whatever is an axiom. I call it an 
+axiom because there are such truths and we give them the name of axioms par 
+excellence. If a thesis assumes one part or the other of an enunciation, i.e. 
+asserts either the existence or the non-existence of a subject, it is a 
+hypothesis; if it does not so assert, it is a definition. Definition is a '
+thesis' or a 'laying something down', since the arithmetician lays it down that 
+to be a unit is to be quantitatively indivisible; but it is not a hypothesis, 
+for to define what a unit is is not the same as to affirm its existence. ")
+    (pre (code
+"(load \"../markup.scm\")
+
+(define (generate-table index val)
+    (let loop ((table '()) (i index) (v val) (row 1))
+      (if (null? v) table
+          (loop 
+            (append table
+                    (list `(tr (td ,row) 
+                               (td ,(car i))
+                               (td ,(car v)))))
+                (cdr i) (cdr v) (+ 1 row)))))
+
+(generate-html \"test.scm\" \"test.html\")"
+                 ))
+    (p "hello world")
+))

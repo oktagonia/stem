@@ -1,0 +1,11 @@
+(load "../markup.scm")
+
+(define (generate-table index val)
+    (let loop ((table '()) (i index) (v val) (row 1))
+      (if (null? v) table
+          (loop (append table (list `(tr (td ,row) 
+                                         (td ,(car i))
+                                         (td ,(car v)))))
+                (cdr i) (cdr v) (+ 1 row)))))
+
+(generate-html "test.scm" "test.html")

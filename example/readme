@@ -1,0 +1,34 @@
+This is a templating engine for HTML-like languages. You write your document
+in a scheme-like alternative and then compile it into a text file. It also
+allows you to insert and evaluate scheme code right from the document, and
+since the document is one giant s-expr, you can actually generate anything
+you would like. To use it it look at the example folder. I might also add
+a system for template inheritance later.
+
+This only works in guile scheme. Though I do plan to make something that's
+more portable.
+
+Yes I made this before I realized that guile has a sxml library. Though this
+I don't think the sxml module has fewer than 100 lines of code.
+
+Todo:
+1. Support for in-tag (?) arguments. Taking an inspiration for the sxml 
+   module, I want it something like:
+
+    (a (@ href "https://www.wikipedia.org/") "Link")
+    ;=> "<a href="https://www.wikipedia.org/">Link</a>"
+
+2. Main text as string instead of symbols. This would obselete verbatim. So
+   the main difference would be:
+
+                what I want
+   (h1 "On the Creation of Long Titles") vs.
+                what I have
+   (h1 On the Creation of Very Long Titles)
+
+   Though I'm not completely sure if this is a good idea. If I make this
+   change then semicolons and other such things work and the whole system is
+   more consistent, but the general experience is worsened. Especially when
+   content generation inside the language is concerned. Make a decision when
+   you impletement. At any rate take out verbatim and add in string without
+   a key word.

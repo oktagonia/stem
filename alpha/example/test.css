@@ -1,0 +1,55 @@
+body {
+    background-color: #ffffff;
+    width: 55ch;
+    margin: auto;
+    font-size: 14pt;
+    line-height: 132.5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    hyphens: auto;
+    font-feature-settings: kern;
+}
+
+p {
+    text-align: justify;
+    text-rendering: optimizeLegibility;
+}
+
+table {
+    border: 1px, solid black;
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #000000;
+    text-align: left;
+}
+
+caption {
+    caption-side: bottom;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-family: serif;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+pre {
+    width: 90%;
+    margin: auto;
+}
+
+code {
+    font-size: 12pt;
+}
