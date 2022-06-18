@@ -22,8 +22,9 @@ you usually write code something like this:
 In here the code to be placed inside the file is represented with *strings*, and
 strings are rather hard to work with. XML is a tree, and strings are 
 one-dimensional arrays, not a perfect match. Stem instead uses scheme s-exprs
-(which are trees) to represent and generate xml code. As such it is quite
-easy to generate content on the file, as such you can do:
+(which are trees) to represent and generate xml code. As such it preserves the
+meaning of the xml and gives you full power to do any sort of code generation
+that you want. This is a short example:
 ```
 # Hi
 %{
