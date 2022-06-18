@@ -43,3 +43,10 @@ really that much better than the snippet I showed you above. That's from
 that's a whole (infurating) 10 lines shorter than stem, mostly because stem 
 compiles sxml into xml while mote doesn't. Regardless I still think stem is 
 easier to reason about but it's not really *that* much better.
+
+**Supported implementations.** For now only guile, but I'll eventually make it
+R6RS compatible. The only part that isn't as of now is the regex part but 
+that'll probably devolve into it's own project of making a fast implementation
+of [SRFI 115](https://srfi.schemers.org/srfi-115/srfi-115.html) by using Ken 
+Thompson's technique as described in 
+[Russ Cox's nice article](https://swtch.com/~rsc/regexp/regexp1.html)
