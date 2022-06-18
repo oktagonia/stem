@@ -1,4 +1,4 @@
-# Stem, a Semantic Templating Engine
+Stem is a **s**emantic **tem**plating engine.
 
 What do I mean by a *semantic* templating engine? In most templating engines
 you usually write code something like this:
