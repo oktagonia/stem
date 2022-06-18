@@ -51,3 +51,6 @@ that'll probably devolve into it's own project of making a fast implementation
 of [SRFI 115](https://srfi.schemers.org/srfi-115/srfi-115.html) by using Ken 
 Thompson's technique as described in 
 [Russ Cox's nice article](https://swtch.com/~rsc/regexp/regexp1.html)
+
+**Usage.** Don't, it's not worth it. But if you want to for whatever reason 
+then you can figure it out yourself if you read the `interface.scm` file.
