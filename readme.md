@@ -42,8 +42,9 @@ really that much better than the snippet I showed you above. That's from
 [mote](https://github.com/soveran/mote) which is a nice templating engine 
 that's a whole (infurating) 10 lines shorter than stem, mostly because stem 
 compiles [sxml](https://www.gnu.org/software/guile/manual/html_node/SXML.html)
-into xml while mote doesn't. Regardless I still think stem is easier to reason 
-about but it's not really *that* much better.
+into xml while mote doesn't and that guile's regex search replace didn't work.
+Regardless I still think stem is easier to reason about but it's not really 
+*that* much better.
 
 **Supported implementations.** For now only guile, but I'll eventually make it
 R6RS compatible. The only part that isn't as of now is the regex part but 
