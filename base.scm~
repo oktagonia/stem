@@ -1,4 +1,0 @@
-'(counter count super)
-
-(define (make-counter name start) (cons name start))
-(define (counter-step counter) (set-cdr! counter (1+ (cdr counter))))
